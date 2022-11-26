@@ -1,30 +1,21 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tree {
-    static List<Human> familyTree = new ArrayList<Human>();
+public class Tree{
+    static List<Human> familyTree = new ArrayList<>();
     int idCount;
     int marregeCount;
-    public void createFamilyHeader(String name, String gender){ //дата рождения
-        Human p = new Human(name, gender, null, null);
+    public List<Pets> pets;
+
+     public void createFamilyHeader(String name, String data, String gender){
+        Human p = new Human(name,  data, gender,  null, null);
         p.setId(idCount);
         idCount+=1;
         familyTree.add(p);
     }
-    public void createFamilyHeader(Human human){ //дата рождения
-        Human p = new Human(human);
-        familyTree.add(p);
-    }
 
-    /**
-     * если есть дети, добавляем детей
-     * @param father
-     * @param mother
-     * @param name
-     * @param gender
-     */
-    public void born(Human father, Human mother, String name, String gender){
-        Human p = new Human(name, gender, father, mother); //дата рождения
+    public void born(Human father, Human mother, String name, String data, String gender){
+        Human p = new Human(name, data, gender, father, mother); //дата рождения
         p.setId(idCount);
         father.addChildren(p);
         mother.addChildren(p);
@@ -36,10 +27,10 @@ public class Tree {
         husbend.setMarrageNo(marregeCount);
         wife.setMarrageNo(marregeCount);
     }
-    public Human getPerson(String name){ //дата рождения
+    public Human getPerson(String name, String data){ //дата рождения
         ArrayList<Human> findList = new ArrayList<>();
         for (Human test : familyTree) {
-            if (test.getName() == name){
+            if (test.getName() == name && test.getData() == data) {
                 findList.add(test);
             }
         }
@@ -56,9 +47,17 @@ public class Tree {
             if (test.getName() == name){
                 findList.add(test);
             }
+        }
+        for (int i = 0; i < findList.size(); i++) {
+            System.out.println(findList.get(i));
 
         }
-        System.out.println(findList);
 
     }
+//    public void petFamily(String name, String type, Human master){
+//        Pets p = new Pets(name, type, master);
+//        p.setIdPets(master.getId());
+//        pets.add(p);
+//     }
+
 }

@@ -1,19 +1,20 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-public class Human {
+public class Human  {
     private String name;
     private int id;
     private String gender;
-    // добавить день рождения
+    private String data; // todo
     private Human father;
     private Human human;
     private Human mother;
     private int marrageNo;
-    private int generation;
     private ArrayList<Human> children;
-    public Human(String name, String gender, Human father, Human mother){
+    public Human(String name, String data, String gender, Human father, Human mother){
         this.name = name;
-        //дата рождения
+        this.data = data;   //todo
         this.gender = gender;
         this.father = father;
         this.mother = mother;
@@ -27,6 +28,12 @@ public class Human {
     }
     public void setName(String name) {
         this.name = name;
+    }
+    public void setData(String data) {
+        this.data = data;
+    }
+    public String getData() {
+        return data;
     }
     public int getId() {
         return id;
@@ -64,12 +71,6 @@ public class Human {
     public void setMarrageNo(int marrageNo) {
         this.marrageNo = marrageNo;
     }
-    public int getGeneration() {
-        return generation;
-    }
-    public void setGeneration(int generation) {
-        this.generation = generation;
-    }
     public ArrayList<Human> getChildren() {
         return children;
     }
@@ -84,7 +85,8 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human[id=" + id + ", name=" + name +  ", gender=" + gender + ", marrageNo="
-                + marrageNo +  ", children=" + children + "]"; //дата рождения
+        return "Human[id=" + id + ", name=" + name + ", data=" + data +  ", gender=" + gender + ", marrageNo="
+                + marrageNo +  ", children=" + children + "]";
     }
+
 }

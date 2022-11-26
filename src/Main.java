@@ -1,30 +1,27 @@
 public class Main {
     public static void main(String[] args) {
             Tree tree = new Tree();
-            tree.createFamilyHeader("Sergey", "M");
-            tree.createFamilyHeader("Elizaveta", "W");
-
-            tree.born(tree.getPerson("Sergey"), tree.getPerson("Elizaveta"), "Valentina", "W");
-            tree.born(tree.getPerson("Sergey"), tree.getPerson("Elizaveta"), "Vladimir", "M");
-
-            tree.createFamilyHeader(tree.getPerson("Valentina"));
-            tree.createFamilyHeader("Aleksandr", "M");
-            tree.marrage(tree.getPerson("Aleksandr"), tree.getPerson("Valentina"));
-            tree.born(tree.getPerson("Aleksandr"), tree.getPerson("Valentina"), "Elena", "W");
-
-            tree.createFamilyHeader(tree.getPerson("Elena"));
-            tree.createFamilyHeader("Aleks", "M");
-            tree.marrage(tree.getPerson("Aleks"), tree.getPerson("Elena"));
-            tree.born(tree.getPerson("Aleks"), tree.getPerson("Elena"), "Liza", "W");
-            tree.born(tree.getPerson("Aleks"), tree.getPerson("Elena"), "Daniil", "M");
+            tree.createFamilyHeader("Sergey", "01.01.1937", "M");
+            tree.createFamilyHeader("Elizaveta", "01.01.1935", "W");
+            tree.marrage(tree.getPerson("Sergey", "01.01.1937"), tree.getPerson("Elizaveta", "01.01.1935"));
+            tree.born(tree.getPerson("Sergey", "01.01.1937"), tree.getPerson("Elizaveta", "01.01.1935"), "Valentina", "29.07.1959","W");
 
 
+
+            tree.createFamilyHeader("Aleksandr", "24.09.1963", "M");
+            tree.marrage(tree.getPerson("Aleksandr", "24.09.1963"), tree.getPerson("Valentina", "29.07.1959"));
+            tree.born(tree.getPerson("Aleksandr", "24.09.1963"), tree.getPerson("Valentina", "29.07.1959"), "Elena", "13.12.1984", "W");
+
+            tree.createFamilyHeader("Aleksandr", "19.03.1985", "M");
+            tree.marrage(tree.getPerson("Aleksandr", "19.03.1985"), tree.getPerson("Elena", "13.12.1984"));
+            tree.born(tree.getPerson("Aleksandr", "19.03.1985"), tree.getPerson("Elena", "13.12.1984"), "Liza", "12.02.2009", "W");
+            tree.born(tree.getPerson("Aleksandr", "19.03.1985"), tree.getPerson("Elena", "13.12.1984"), "Danila", "16.03.2014", "M");
+
+            tree.petFamily("Мася", "Cat", tree.getPerson("Elena", "13.12.1984"));
 
             tree.Print();
             System.out.println("--------------------------------");
-            tree.Print2("Sergey");
-
-
-
+            tree.Print2("Aleksandr");
+            System.out.println("--------------------------------");
     }
 }

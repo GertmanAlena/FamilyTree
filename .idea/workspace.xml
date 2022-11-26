@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="&quot;учусь коммитить&quot;" />
+    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="&quot;добвила дату рождения&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +55,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669286377487</updated>
-      <workItem from="1669286379317" duration="1202000" />
+      <workItem from="1669286379317" duration="16718000" />
+      <workItem from="1669462975830" duration="15946000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;учусь коммитить&quot;">
       <created>1669286715013</created>
@@ -72,7 +79,42 @@
       <option name="project" value="LOCAL" />
       <updated>1669286831344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;учусь коммитить&quot;">
+      <created>1669300264502</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300264502</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&quot;учусь коммитить&quot;">
+      <created>1669300272328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300272328</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&quot;учусь коммитить&quot;">
+      <created>1669300352675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300352675</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;учусь коммитить&quot;">
+      <created>1669300359097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300359097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;учусь коммитить&quot;">
+      <created>1669300446641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669300446641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;учусь коммитить&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;учусь коммитить&quot;" />
+    <MESSAGE value="&quot;добвила дату рождения&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;добвила дату рождения&quot;" />
   </component>
 </project>

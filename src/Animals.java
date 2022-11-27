@@ -33,11 +33,6 @@ public abstract class Animals implements Speakable {
     public String getColor(){
         return color;
     }
-//    public void printAnimals(){
-//        for (int i = 0; i < animals.size(); i++) {
-//            System.out.println(animals.get(i));
-//        }
-//    }
     @Override
     public String toString() {
         return String.format("имя %s, цвет %s, id %d", name, color, idAnimal);

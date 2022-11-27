@@ -14,7 +14,7 @@ public class Human extends Animals {
     private ArrayList<Human> children;
     public Human(String name, String data, String gender, Human father, Human mother){
         this.name = name;
-        this.data = data;   //todo
+        this.data = data;
         this.gender = gender;
         this.father = father;
         this.mother = mother;

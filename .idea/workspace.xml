@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Alena" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +58,7 @@
       <updated>1669286377487</updated>
       <workItem from="1669286379317" duration="16718000" />
       <workItem from="1669462975830" duration="17025000" />
-      <workItem from="1669541305572" duration="22760000" />
+      <workItem from="1669541305572" duration="23196000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;учусь коммитить&quot;">
       <created>1669286715013</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669572175274</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;что-то ещё наковыряла...&quot;">
+      <created>1669574642621</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669574642621</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

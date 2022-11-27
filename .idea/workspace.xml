@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="&quot;добвила дату рождения&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Pets.java" afterDir="false" />
+    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Speakable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pets.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -35,18 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669286377487</updated>
       <workItem from="1669286379317" duration="16718000" />
-      <workItem from="1669462975830" duration="15946000" />
+      <workItem from="1669462975830" duration="17025000" />
+      <workItem from="1669541305572" duration="20261000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;учусь коммитить&quot;">
       <created>1669286715013</created>
@@ -114,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669300446641</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;не могу добавить питомца&quot;">
+      <created>1669497386371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669497386371</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;учусь коммитить&quot;" />
     <MESSAGE value="&quot;добвила дату рождения&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;добвила дату рождения&quot;" />
+    <MESSAGE value="&quot;не могу добавить питомца&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;не могу добавить питомца&quot;" />
   </component>
 </project>

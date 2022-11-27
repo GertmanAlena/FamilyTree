@@ -2,11 +2,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Human  {
+public class Human extends Animals {
     private String name;
     private int id;
     private String gender;
-    private String data; // todo
+    private String data;
     private Human father;
     private Human human;
     private Human mother;
@@ -18,7 +18,6 @@ public class Human  {
         this.gender = gender;
         this.father = father;
         this.mother = mother;
-
     }
     public Human(Human human){
         this.human = human;
@@ -88,5 +87,8 @@ public class Human  {
         return "Human[id=" + id + ", name=" + name + ", data=" + data +  ", gender=" + gender + ", marrageNo="
                 + marrageNo +  ", children=" + children + "]";
     }
-
+    @Override
+    public void speak() {
+        System.out.println("Я человек");
+    }
 }

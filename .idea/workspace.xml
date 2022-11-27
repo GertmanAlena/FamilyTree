@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="" />
+    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
       <updated>1669286377487</updated>
       <workItem from="1669286379317" duration="16718000" />
       <workItem from="1669462975830" duration="17025000" />
-      <workItem from="1669541305572" duration="23196000" />
+      <workItem from="1669541305572" duration="23718000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;учусь коммитить&quot;">
       <created>1669286715013</created>
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669574642621</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;сделала новую ветку&quot;">
+      <created>1669575085521</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669575085521</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +168,7 @@
     <MESSAGE value="&quot;добвила дату рождения&quot;" />
     <MESSAGE value="&quot;не могу добавить питомца&quot;" />
     <MESSAGE value="&quot;что-то ещё наковыряла...&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;что-то ещё наковыряла...&quot;" />
+    <MESSAGE value="&quot;сделала новую ветку&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;сделала новую ветку&quot;" />
   </component>
 </project>

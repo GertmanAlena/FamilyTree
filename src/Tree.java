@@ -2,16 +2,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Tree{
+    /**
+     * класс формирования дерева
+     */
     static List<Human> familyTree = new ArrayList<>();
     int idCount;
     int marregeCount;
 
+    /**
+     *
+     * @param name имя человека
+     * @param data дата рождения
+     * @param gender пол человека
+     */
      public void createFamilyHeader(String name, String data, String gender){
         Human p = new Human(name,  data, gender,  null, null);
         p.setId(idCount);
         idCount+=1;
         familyTree.add(p);
     }
+    /**
+     * метод рождения ребёнка
+     * @param father отец
+     * @param mother мать
+     * @param name имя ребёнка
+     * @param data дата рождения ребёнка
+     * @param gender пол ребёнка
+     */
     public void born(Human father, Human mother, String name, String data, String gender){
         Human p = new Human(name, data, gender, father, mother);
         p.setId(idCount);

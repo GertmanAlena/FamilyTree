@@ -26,25 +26,24 @@ public class Main {
             tree.born(tree.getPerson("Aleksandr", "19.03.1985"), tree.getPerson("Elena", "13.12.1984"), "Danila", "16.03.2014", "M");
 
             tree.Print();
-            System.out.println("--------------------------------");
-            tree.Print2("Aleksandr");
-            System.out.println("--------------------------------");
+//            System.out.println("--------------------------------");
+//            tree.Print2("Aleksandr");
+//            System.out.println("--------------------------------");
 
-            List<Speakable> animals = new ArrayList<>();
-            Animals cat = new Cat();
-            cat.Animals("Masy", "black", tree.getPerson("Elena", "13.12.1984"));
-            animals.add(cat);
-            cat = new Cat();
-            cat.Animals("Koty", "black", tree.getPerson("Aleksandr", "24.09.1963"));
-            animals.add(cat);
-
-
-            Animals dog = new Dog();
-            dog.Animals("Cheyza", "rad", tree.getPerson("Aleksandr", "19.03.1985"));
-            animals.add(dog);
-            for (Speakable speakable : animals){
-                    speakable.speak();
-            }
+//            List<Speakable> animals = new ArrayList<>();
+//            Animals cat = new Cat();
+//            cat.Animals("Masy", "black", tree.getPerson("Elena", "13.12.1984"));
+//            animals.add(cat);
+//            cat = new Cat();
+//            cat.Animals("Koty", "black", tree.getPerson("Aleksandr", "24.09.1963"));
+//            animals.add(cat);
+//            Animals dog = new Dog();
+//            dog.Animals("Cheyza", "rad", tree.getPerson("Aleksandr", "19.03.1985"));
+//            animals.add(dog);
+//            for (Speakable speakable : animals){
+//                    speakable.speak();
+//            }
+            System.out.println("****************************");
 
 
     }

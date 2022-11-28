@@ -1,7 +1,11 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
-public class Tree{
+/**
+ * class Tree итерируемый создаёт дерево List<Human> familyTree
+ */
+public class Tree implements Iterable<Human>{
     /**
      * класс формирования дерева
      */
@@ -37,12 +41,18 @@ public class Tree{
         familyTree.add(p);
         idCount+=1;
     }
+
+    /**
+     * метод, если Human вступил в брак с присваиванием ID брака
+     * @param husband сохраняется как супруг
+     * @param wife сохраняется как супруга
+     */
     public void marriage(Human husband, Human wife){
         marriageCount +=1;
         husband.setMarriageNo(marriageCount);
         wife.setMarriageNo(marriageCount);
     }
-    public Human getPerson(String name, String data){ //дата рождения
+    public Human getPerson(String name, String data){
         ArrayList<Human> findList = new ArrayList<>();
         for (Human test : familyTree) {
             if (test.getName() == name && test.getData() == data) {
@@ -51,10 +61,14 @@ public class Tree{
         }
         return findList.get(0);
     }
+
+    /**
+     * метод перебора дерева с помощью итератора
+     */
     public void Print(){
-        for (int i = 0; i < familyTree.size(); i++) {
-            System.out.println(familyTree.get(i).toString());
-            familyTree.get(i).speak();
+        for (Human human : familyTree){
+            System.out.println(human);
+            human.speak();
         }
     }
     public void Print2(String name){
@@ -66,8 +80,12 @@ public class Tree{
         }
         for (int i = 0; i < findList.size(); i++) {
             System.out.println(findList.get(i));
+       }
+    }
 
-        }
-
+    @Override
+    public Iterator<Human> iterator() {
+        return new GroupIterator(familyTree);
+//        return familyTree.iterator();
     }
 }

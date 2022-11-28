@@ -1,6 +1,14 @@
 import java.util.ArrayList;
-
-public class Human extends Animals {
+/**
+ * метод создания сущности Human
+ * implements Comparable<Human> говорит о том, что мы сможем производить сортировку
+ * <Human> с чем сравниваем
+ * тут конструктор, гетеры и сетеры,сетод создания списка детей
+ * переопределён метод toString
+ * переопределён метод speak
+ * переопределён метод compareTo
+ */
+public class Human extends Animals implements Comparable<Human> {
     private String name;
     private int id;
     private String gender;
@@ -88,5 +96,10 @@ public class Human extends Animals {
     @Override
     public void speak() {
         System.out.println("Я человек");
+    }
+
+    @Override
+    public int compareTo(Human o) {
+        return name.compareTo(o.getName()); // в String-ах уже есть метод compareTo
     }
 }

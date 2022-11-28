@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GroupIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HumanComparatorByName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
     </list>
@@ -68,7 +69,7 @@
       <workItem from="1669462975830" duration="17025000" />
       <workItem from="1669541305572" duration="24531000" />
       <workItem from="1669625365156" duration="601000" />
-      <workItem from="1669633213331" duration="2433000" />
+      <workItem from="1669633213331" duration="6900000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;учусь коммитить&quot;">
       <created>1669286715013</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669625886179</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;сделала familyTree итеррируемым&quot;">
+      <created>1669638446159</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669638446159</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +200,7 @@
     <MESSAGE value="&quot;что-то ещё наковыряла...&quot;" />
     <MESSAGE value="&quot;сделала новую ветку&quot;" />
     <MESSAGE value="&quot;добавила документацию&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;добавила документацию&quot;" />
+    <MESSAGE value="&quot;сделала familyTree итеррируемым&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;сделала familyTree итеррируемым&quot;" />
   </component>
 </project>

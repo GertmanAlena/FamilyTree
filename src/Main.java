@@ -44,7 +44,8 @@ public class Main {
 //                    speakable.speak();
 //            }
             System.out.println("****************************");
-
+            tree.sortByName();
+            tree.Print();
 
     }
 

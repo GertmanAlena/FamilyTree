@@ -7,7 +7,7 @@ public class Tree{
      */
     static List<Human> familyTree = new ArrayList<>();
     int idCount;
-    int marregeCount;
+    int marriageCount;
 
     /**
      *
@@ -37,10 +37,10 @@ public class Tree{
         familyTree.add(p);
         idCount+=1;
     }
-    public void marrage(Human husbend, Human wife){
-        marregeCount+=1;
-        husbend.setMarrageNo(marregeCount);
-        wife.setMarrageNo(marregeCount);
+    public void marriage(Human husband, Human wife){
+        marriageCount +=1;
+        husband.setMarriageNo(marriageCount);
+        wife.setMarriageNo(marriageCount);
     }
     public Human getPerson(String name, String data){ //дата рождения
         ArrayList<Human> findList = new ArrayList<>();

@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 public class Human extends Animals {
     private String name;
@@ -10,7 +8,7 @@ public class Human extends Animals {
     private Human father;
     private Human human;
     private Human mother;
-    private int marrageNo;
+    private int marriageNo;
     private ArrayList<Human> children;
     public Human(String name, String data, String gender, Human father, Human mother){
         this.name = name;
@@ -64,11 +62,11 @@ public class Human extends Animals {
     public void setMother(Human mother) {
         this.mother = mother;
     }
-    public int getMarrageNo() {
-        return marrageNo;
+    public int getMarriageNo() {
+        return marriageNo;
     }
-    public void setMarrageNo(int marrageNo) {
-        this.marrageNo = marrageNo;
+    public void setMarriageNo(int marriageNo) {
+        this.marriageNo = marriageNo;
     }
     public ArrayList<Human> getChildren() {
         return children;
@@ -84,8 +82,8 @@ public class Human extends Animals {
 
     @Override
     public String toString() {
-        return "Human[id=" + id + ", name=" + name + ", data=" + data +  ", gender=" + gender + ", marrageNo="
-                + marrageNo +  ", children=" + children + "]";
+        return "Human[id=" + id + ", name=" + name + ", data=" + data +  ", gender=" + gender + ", marriageNo="
+                + marriageNo +  ", children=" + children + "]";
     }
     @Override
     public void speak() {

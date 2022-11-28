@@ -3,24 +3,22 @@ import java.util.*;
 /**
  * class Tree итерируемый создаёт дерево List<Human> familyTree
  */
-public class Tree implements Iterable<Human>{
+public class Tree implements Iterable<Human> {
     /**
      * класс формирования дерева
      */
-    static List<Human> familyTree = new ArrayList<>();
-    int idCount;
-    int marriageCount;
+    private List<Human> familyTree = new ArrayList<>();
+    int idCount = 0;
+    int marriageCount = 0;
 
     /**
-     *
      * @param name имя человека
      * @param data дата рождения
      * @param gender пол человека
      */
      public void createFamilyHeader(String name, String data, String gender){
-        Human p = new Human(name,  data, gender,  null, null);
-        p.setId(idCount);
-        idCount+=1;
+        Human p = new Human(name,  data, gender, null, null);
+        p.setId(idCount++);
         familyTree.add(p);
     }
     /**
@@ -33,11 +31,10 @@ public class Tree implements Iterable<Human>{
      */
     public void born(Human father, Human mother, String name, String data, String gender){
         Human p = new Human(name, data, gender, father, mother);
-        p.setId(idCount);
+        p.setId(idCount++);
         father.addChildren(p);
         mother.addChildren(p);
         familyTree.add(p);
-        idCount+=1;
     }
     /**
      * метод, если Human вступил в брак с присваиванием ID брака
@@ -45,8 +42,7 @@ public class Tree implements Iterable<Human>{
      * @param wife сохраняется как супруга
      */
     public void marriage(Human husband, Human wife){
-        marriageCount +=1;
-        husband.setMarriageNo(marriageCount);
+        husband.setMarriageNo(++marriageCount);
         wife.setMarriageNo(marriageCount);
     }
     public Human getPerson(String name, String data){
@@ -58,7 +54,6 @@ public class Tree implements Iterable<Human>{
         }
         return findList.get(0);
     }
-
     /**
      * метод перебора дерева с помощью итератора
      * вызов метода speak через интерфейс
@@ -88,4 +83,5 @@ public class Tree implements Iterable<Human>{
     public void sortByName() {
         Collections.sort(familyTree, new HumanComparatorByName());
     }
+
 }

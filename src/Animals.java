@@ -1,41 +1,35 @@
-import java.util.ArrayList;
-import java.util.List;
-
-public abstract class Animals implements Speakable {
-    private String name;
-    private String color;
+public class Animals {
     private int idAnimal;
+    private String name;
+    private Animals animals;
+    Human father;
 
-    public void Animals(String name, String color, Human human) {
+    public Animals(String name, Human father) {
         this.name = name;
-        this.color = color;
-        this.idAnimal = human.getId();
-
-//        animals.add(this);
+        this.father = father;
     }
-//    public Animals(Animals animals){
-//        this.animals = animals;
-//    }
-    public void setName(String name){
-        this.name = name;
+    public Animals(Animals animals){
+        this.animals = animals;
     }
-    public void setColor(String color){
-        this.color = color;}
-    public void setIdAnimal(int idAnimal){
-        this.idAnimal = idAnimal;
-    }
-    public int getIdAnimal(){
+    public int getIdAnimal() {
         return idAnimal;
     }
-    public String getName(){
+
+    public void setIdAnimal(Human father) {
+        this.idAnimal = father.getId();
+    }
+
+    public String getName() {
         return name;
     }
-    public String getColor(){
-        return color;
+
+    public void setName(String name) {
+        this.name = name;
     }
     @Override
     public String toString() {
-        return String.format("имя %s, цвет %s, id %d", name, color, idAnimal);
+        return "питомец [id=" + idAnimal + ", name=" + name + ", хозяин=" + father + "]";
     }
-
 }
+
+

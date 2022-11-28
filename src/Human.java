@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * переопределён метод speak
  * переопределён метод compareTo
  */
-public class Human extends Animals implements Comparable<Human> {
+public class Human implements Comparable<Human> {
     private String name;
     private int id;
     private String gender;
@@ -92,10 +92,6 @@ public class Human extends Animals implements Comparable<Human> {
     public String toString() {
         return "Human[id=" + id + ", name=" + name + ", data=" + data +  ", gender=" + gender + ", marriageNo="
                 + marriageNo +  ", children=" + children + "]";
-    }
-    @Override
-    public void speak() {
-        System.out.println("Я человек");
     }
 
     @Override

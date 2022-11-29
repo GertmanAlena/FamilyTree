@@ -4,10 +4,11 @@ import java.util.List;
 
 public class TreeAnimals implements Iterable<Animals> {
     private List<Animals> animals = new ArrayList<>();
-    Human father;
+    String master;
 
     public void createAnimalHeader(String name, Human father){
-        Animals a = new Animals(name, father);
+        master = father.getName();
+        Animals a = new Animals(name, master);
         a.setIdAnimal(father);
         animals.add(a);
     }

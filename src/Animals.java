@@ -1,12 +1,12 @@
 public class Animals {
     private int idAnimal;
     private String name;
+    private String master;
     private Animals animals;
-    Human father;
 
-    public Animals(String name, Human father) {
+    public Animals(String name, String master) {
         this.name = name;
-        this.father = father;
+        this.master = master;
     }
     public Animals(Animals animals){
         this.animals = animals;
@@ -16,6 +16,7 @@ public class Animals {
     }
 
     public void setIdAnimal(Human father) {
+
         this.idAnimal = father.getId();
     }
 
@@ -28,7 +29,7 @@ public class Animals {
     }
     @Override
     public String toString() {
-        return "питомец [id=" + idAnimal + ", name=" + name + ", хозяин=" + father + "]";
+        return "питомец [id=" + idAnimal + ", name=" + name + ", хозяин=" + master + " с ID-" + idAnimal + "]";
     }
 }
 

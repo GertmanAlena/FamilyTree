@@ -5,11 +5,11 @@ import java.util.List;
  * class GroupIterator нужен в случае использования в классе Tree
  * метода Iterator<Human> iterator
  */
-public class GroupIterator implements Iterator<Human> {
-    private List<Human> humanList;
+public class GroupIterator<T> implements Iterator<T> {
+    private List<T> humanList;
     private int index = 0;
 
-    public GroupIterator(List<Human> humanList) {
+    public GroupIterator(List<T> humanList) {
         this.humanList = humanList;
     }
 
@@ -19,7 +19,7 @@ public class GroupIterator implements Iterator<Human> {
     }
 
     @Override
-    public Human next() {
+    public T next() {
         return humanList.get(index++);
     }
 }

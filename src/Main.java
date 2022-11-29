@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Tree tree = new Tree();
+        Tree<Human> tree = new Tree<>();
         tree.createFamilyHeader("Sergey", "01.01.1937", "M");
         tree.createFamilyHeader("Elizaveta", "01.01.1935", "W");
         tree.marriage(tree.getPerson("Sergey", "01.01.1937"), tree.getPerson("Elizaveta", "01.01.1935"));
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("--------------------------------");
 
 
-        System.out.println("****************************");
+        System.out.println("*********************");
         tree.sortByName();
         tree.Print();
         System.out.println("***********Animals***********");
@@ -36,6 +36,8 @@ public class Main {
         anim.createAnimalHeader("Мася", tree.getPerson("Aleksandr", "19.03.1985"));
         anim.createAnimalHeader("Чейза", tree.getPerson("Elena", "13.12.1984"));
         anim.printAnimal();
+
+
     }
 
 

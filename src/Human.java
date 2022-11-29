@@ -28,6 +28,7 @@ public class Human implements Comparable<Human> {
     public Human(Human human){
         this.human = human;
     }
+
     public String getName() {
         return name;
     }

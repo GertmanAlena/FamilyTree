@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GroupIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HumanComparatorByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumanComparatorByName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
-    </list>
+    <list default="true" id="6e7d72a5-eed4-4796-9d1e-97584f48a80b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669745789855</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="&quot;&lt;T&gt;&quot;">
+      <created>1670137830046</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670137830046</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +259,7 @@
     <MESSAGE value="&quot;добавила итерфейсы сортировок и итераторов&quot;" />
     <MESSAGE value="&quot;привязала питомцев к хозяину&quot;" />
     <MESSAGE value="&quot;,,,&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;,,,&quot;" />
+    <MESSAGE value="&quot;&lt;T&gt;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;&lt;T&gt;&quot;" />
   </component>
 </project>
